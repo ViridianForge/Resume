@@ -91,6 +91,51 @@ SmallCapsFeatures = {Letters = SmallCaps}
 }
 
 %----------------------------------------------------------------------------------------
+%	CLASS COMMAND
+%	#1 -- Term(s) Taught
+%	#2 -- Department and School
+%	#3 -- Class Title
+%----------------------------------------------------------------------------------------
+
+\newcommand{\project}[x]{
+\begin{tabbing}
+\hspace{2cm} \= \kill
+\textbf{#1} \> {#2}
+\begin{minipage}{\smallertextwidth}
+\end{minipage}
+\end{tabbing}
+\vspace{2mm}
+}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION COMMAND
+%	#1 -- Publication Date
+%	#2 -- Title of Publication
+%	#3 -- Authors
+%	#4 -- Journal
+%----------------------------------------------------------------------------------------
+
+\newcommand{\project}[x]{
+\begin{tabbing}
+\hspace{2cm} \= \kill
+\textbf{#1} \> \textit{#2}
+\begin{minipage}{\smallertextwidth}
+\vspace{2mm}
+#3 \\
+#4
+\end{minipage}
+\end{tabbing}
+\vspace{2mm}
+}
+
+%----------------------------------------------------------------------------------------
+%	PROJECT COMMAND
+%----------------------------------------------------------------------------------------
+
+\newcommand{\publication}[x]{
+}
+
+%----------------------------------------------------------------------------------------
 %	SKILL GROUP COMMAND
 %----------------------------------------------------------------------------------------
 

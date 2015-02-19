@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.2.17)  17 FEB 2015 19:50
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.2.17)  18 FEB 2015 18:40
 entering extended mode
-**cv_13.tex
-(C:\Users\mansellw\Documents\GitHub\Resume\cv_13.tex
+**C:/Users/mansellw/Documents/GitHub/Resume/cv_13.tex
+(C:/Users/mansellw/Documents/GitHub/Resume/cv_13.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -1030,37 +1030,36 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 Requested font "[./fonts/Erewhon-Italic.otf]/ICU:script=latn;language=DFLT;" at
  10.0pt
  -> C:/Users/mansellw/Documents/GitHub/Resume/fonts/Erewhon-Italic.otf
+Requested font "[./fonts/Erewhon-Italic.otf]/ICU:script=latn;language=DFLT;" at
+ 7.0pt
+ -> C:/Users/mansellw/Documents/GitHub/Resume/fonts/Erewhon-Italic.otf
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 124.
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 136.
 
 [1
 
 ]
-! TeX capacity exceeded, sorry [input stack size=5000].
-\hyper@normalise ->\begingroup \catcode `\^^M
-                                             \active \def ^^M{ }\catcode `\%...
-l.191 \begin{itemize-noindent}
-                              
-If you really absolutely need more capacity,
-you can ask a wizard to enlarge me.
 
- 
-Here is how much of TeX's memory you used:
- 20849 strings out of 429025
- 382888 string characters out of 3167800
- 908722 words of memory out of 3000000
- 23995 multiletter control sequences out of 15000+200000
- 4907 words of font info for 34 fonts, out of 3000000 for 9000
- 912 hyphenation exceptions out of 8191
- 5000i,11n,8333p,10453b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
-Output written on cv_13.pdf (1 page).
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 212.
+
+[2]
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 281.
+
+[3]
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 354.
+
+[4])
+! Incomplete \ifmmode; all text was ignored after line 396.
+<inserted t
