@@ -17,6 +17,8 @@
 
 \usepackage[a4paper, hmargin=25mm, vmargin=30mm, top=20mm]{geometry} % Use A4 paper and set margins
 
+\usepackage{natbib}
+
 \usepackage{fancyhdr} % Customize the header and footer
 
 \usepackage{lastpage} % Required for calculating the number of pages in the document
@@ -75,6 +77,13 @@ SmallCapsFeatures = {Letters = SmallCaps}
 
 %----------------------------------------------------------------------------------------
 %	JOB COMMAND
+%	#1 -- Start Date
+%	#2 -- End Date
+%	#3 -- Location
+%	#4 -- Website
+%	#5 -- Title
+%	#6 -- Short Description
+%
 %----------------------------------------------------------------------------------------
 
 \newcommand{\job}[6]{
@@ -95,13 +104,16 @@ SmallCapsFeatures = {Letters = SmallCaps}
 %	#1 -- Term(s) Taught
 %	#2 -- Department and School
 %	#3 -- Class Title
+%	#4 -- Details
 %----------------------------------------------------------------------------------------
 
-\newcommand{\project}[x]{
+\newcommand{\class}[4]{
 \begin{tabbing}
 \hspace{2cm} \= \kill
-\textbf{#1} \> {#2}
+\textbf{#1} \> {#2} \\
+\> \+ \textbf{#3} \\
 \begin{minipage}{\smallertextwidth}
+#4
 \end{minipage}
 \end{tabbing}
 \vspace{2mm}
@@ -115,13 +127,13 @@ SmallCapsFeatures = {Letters = SmallCaps}
 %	#4 -- Journal
 %----------------------------------------------------------------------------------------
 
-\newcommand{\project}[x]{
+\newcommand{\publication}[4]{
 \begin{tabbing}
 \hspace{2cm} \= \kill
-\textbf{#1} \> \textit{#2}
+\textbf{#1} \> \textit{#2} \\
 \begin{minipage}{\smallertextwidth}
 \vspace{2mm}
-#3 \\
+#3\\
 #4
 \end{minipage}
 \end{tabbing}
@@ -130,13 +142,32 @@ SmallCapsFeatures = {Letters = SmallCaps}
 
 %----------------------------------------------------------------------------------------
 %	PROJECT COMMAND
+%	#1 -- Start Date
+%	#2 -- End Date
+%	#3 -- Name of Project
+%	#4 -- Researchers on team
+%	#5 -- Description
+%
 %----------------------------------------------------------------------------------------
 
-\newcommand{\publication}[x]{
+\newcommand{\project}[5]{
+\begin{tabbing}
+\hspace{2cm} \= \kill
+\textbf{#1} \> #3 \\
+\textbf{#2} \> \+ \textit{#4} \\
+\begin{minipage}{\smallertextwidth}
+\vspace{2mm}
+#5
+\end{minipage}
+\end{tabbing}
+\vspace{2mm}
 }
 
 %----------------------------------------------------------------------------------------
 %	SKILL GROUP COMMAND
+%	#1 -- Skill Group Title
+%	#2 -- Skills to list
+%
 %----------------------------------------------------------------------------------------
 
 \newcommand{\skillgroup}[2]{
@@ -152,6 +183,8 @@ SmallCapsFeatures = {Letters = SmallCaps}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS GROUP COMMAND
+%	#1 -- General interests to list
+%
 %-----------------------------------------------------------------------------------------
 
 \newcommand{\interestsgroup}[1]{
@@ -162,10 +195,17 @@ SmallCapsFeatures = {Letters = SmallCaps}
 \vspace{-10mm}
 }
 
-\newcommand{\interest}[1]{\sqbullet \> \textbf{#1}\\[3pt]} % Define a custom command for individual interests
+
+%----------------------------------------------------------------------------------------
+%	INTEREST COMMAND
+%	#1 -- Styles an individual interest
+%
+%-----------------------------------------------------------------------------------------
+\newcommand{\interest}[1]{\sqbullet \> \textbf{#1}\\[3pt]} 
 
 %----------------------------------------------------------------------------------------
 %	TABBED BLOCK COMMAND
+%	#1 -- Text to place within a tabbed in block
 %----------------------------------------------------------------------------------------
 
 \newcommand{\tabbedblock}[1]{
