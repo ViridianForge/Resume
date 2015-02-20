@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.2.17)  20 FEB 2015 14:36
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.2.17)  20 FEB 2015 14:34
 entering extended mode
-**C:/Users/mansellw/Documents/GitHub/Resume/ManselleCV.tex
-(C:/Users/mansellw/Documents/GitHub/Resume/ManselleCV.tex
+**C:/Users/mansellw/Documents/GitHub/Resume/ManselleResume.tex
+(C:/Users/mansellw/Documents/GitHub/Resume/ManselleResume.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -841,7 +841,7 @@ les
 )
 \smallertextwidth=\skip61
 )
-(C:\Users\mansellw\Documents\GitHub\Resume\ManselleCV.aux)
+(C:\Users\mansellw\Documents\GitHub\Resume\ManselleResume.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
@@ -922,8 +922,8 @@ LaTeX Info: Redefining \ref on input line 28.
 LaTeX Info: Redefining \pageref on input line 28.
 LaTeX Info: Redefining \nameref on input line 28.
 
-(C:\Users\mansellw\Documents\GitHub\Resume\ManselleCV.out)
-(C:\Users\mansellw\Documents\GitHub\Resume\ManselleCV.out)
+(C:\Users\mansellw\Documents\GitHub\Resume\ManselleResume.out)
+(C:\Users\mansellw\Documents\GitHub\Resume\ManselleResume.out)
 \@outlinefile=\write3
 
 *** you should *not* be loading the inputenc package
@@ -1049,44 +1049,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
 [1
 
-] [2] [3] [4] (C:\Users\mansellw\Documents\GitHub\Resume\ManselleCV.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-)
-
-Package hyperref Warning: Suppressing link with empty target on input line 441.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 482.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 494.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 510.
-
-
-[5] 
+] 
 AED: lastpage setting LastPage
-[6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
- (C:\Users\mansellw\Documents\GitHub\Resume\ManselleCV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 527.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 527.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 527.
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+ (C:\Users\mansellw\Documents\GitHub\Resume\ManselleResume.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 219.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 21174 strings out of 429025
- 386824 string characters out of 3167800
- 456177 words of memory out of 3000000
+ 21171 strings out of 429025
+ 386806 string characters out of 3167800
+ 454185 words of memory out of 3000000
  24311 multiletter control sequences out of 15000+200000
  4907 words of font info for 34 fonts, out of 3000000 for 9000
  912 hyphenation exceptions out of 8191
- 48i,11n,54p,10500b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,11n,54p,10504b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ManselleCV.pdf (6 pages).
+Output written on ManselleResume.pdf (2 pages).
